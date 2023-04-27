@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    height: 50vh;
+    margin: 10% auto;
+    /* border: solid red 10px; */
+    display: block;
+    background-color: #ddd6fe;
+    text-align: center;
+}
+
+
+.homeandguest {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    /* border: solid red 3px; */
+}
+
+/* .home, .guest{
+    border: solid blue 1px;
+    
+}
+
+h3{
+    border: solid greenyellow 1px;
+}
+
+.scoreboard{
+    border: solid grey 2px;
+}
+
+#score1{
+    border: solid blueviolet 2px;
+} */
+
+h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.scoreboard{
+    width: 100px;
+    height: 90px;
+    background-color: black;
+    margin-bottom: 15px;
+} 
+#score1, #score2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ddd6fe;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 25px;
+    /* border: solid hotpink 1px; */
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonbtn{
+    width: 32px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ddd6fe;
+    /* border: solid #075985 1px; */
+    border-radius: 2px;
+}
+
+#resetbtn{
+    width: 90px;
+    height: 25px;
+    background-color: #ddd6fe;
+    border-radius: 5px;
+    font-weight: bold;
+}
